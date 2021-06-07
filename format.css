@@ -1,0 +1,305 @@
+.Banner {
+	background-color: black;
+	padding-bottom: 45px;
+}
+
+.Banner-text-main{
+	color: white;
+	font: Helvetica;
+	font-size: 90px;
+	text-weight: 300;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.Banner-text{
+	color: #C1C1C1;
+	font: Helvetica;
+	text-weight: 10;
+	text-align: center;
+}
+
+#banner-text-mobile{
+	font-size: auto;
+}
+
+#banner-text-desktop{
+	font-size: 30px;
+}
+
+#banner-actions-mobile{
+	font-size: auto;
+}
+
+#banner-actions-desktop{
+	font-size: 20px;
+}
+
+#email-link1-mobile{
+	font-size: auto;
+}
+
+#email-link1-desktop{
+	font-size:20px;
+}
+
+.filler{
+	width: 32%;
+	text-align: right;
+	color: black;
+	float: left;
+}
+
+.Banner-email{
+	color: #C1C1C1;
+	font: Helvetica;
+	text-weight: 10;
+	text-align: right;
+	width: 9%;
+	float: left;
+	text-decoration: underline;
+}
+
+.copyResponse1{
+	color: black;
+	font: Helvetica;
+	font-size: 20px;
+	background-color: white;
+	border-radius: 3px;
+	text-weight: 10;
+	text-align: right;
+	width: 9%;
+	float: left;
+}
+
+.copyResponse2{
+	color: black;
+	font: Helvetica;
+	font-size: 20px;
+	text-weight: 10;
+	background-color: white;
+	border-radius: 3px;
+	float: right;
+	margin: 14px 5px 0px 0px;
+}
+
+#copyHidden{
+	opacity: 0;
+}
+
+#copyShow{
+	opacity: 0.6;
+}
+
+.Banner-link{
+	color: #C1C1C1;
+	font: Helvetica;
+	text-weight: 10;
+	text-align: left;
+	width: 50%;
+	float: right;
+}
+
+.header-text{
+	text-align: center;
+	font: Helvetica;
+	font-size: 50px;
+	color: black;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+footer{
+	background-color: black;
+	height: 50px;
+	bottom: 0;
+	width: 100%;
+}
+
+h3,p{
+	font: Helvetica;
+	color: #2a2727;
+}
+
+table{
+	font: Helvetica;
+	width: 100%;
+	text-align: left;
+	border: 1px dashed black;
+}
+
+.about-me-header{
+	font: Helvetica;
+	color: #2a2727;
+	text-align: center;
+	font-size: 35px;
+}
+
+.about-me-text{
+	font: Helvetica;
+	color: #2a2727;
+	text-align: left;
+	font-size: 18px;
+}
+
+.my-info-container{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	align: center;
+}
+
+.footer-img{
+	float: right;
+	height: 40px;
+	width: 40px;
+	margin: 5px 5px 0px 0px;
+}
+
+.project-picture{
+	height: 175px;
+	width: 200px;
+	opacity: 1;
+}
+
+#closed{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#open{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.hideImg{
+	visibility: hidden;
+}
+
+.showImg{
+	visibility: visible;
+}
+
+.project-name{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #b148d2;
+	text-decoration-style: solid;
+}
+
+#back{
+	background-color: white;
+	border-radius: 4px;
+}
+
+#myInput{
+   opacity:0;
+   width: 1%;
+   height: 1px;
+}
+
+.Purple-line {
+	border: 3px solid #b148d2;
+	border-radius: 1px;
+	width: 15%;
+	margin: auto;
+}
+
+.Divide-line {
+	border: 2px solid black;
+	width: 85%;
+	margin: auto;
+}
+
+.line {
+	border: 1px solid #c1c1c1;
+	width: 30%;
+	margin: auto;
+}
+
+.portfolio-projects-conatiner{
+	padding: 3px;
+	padding-bottom: 10px;
+}
+
+.about-me-grid-container-desktop{
+  display: grid;
+  grid-template-columns: 30% 3% 30% 3% 30%;
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.about-me-grid-container-mobile{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+  padding: 10px;
+  grid-template-rows: auto;
+}
+
+.grid-container-desktop {
+  display: grid;
+  grid-template-columns: 16% 16% 16% 1% 16% 16% 16%;
+  grid-template-areas:
+    'infoP1 roleP1 P1 filler P2 infoP2 roleP2'
+    'infoP3 roleP3 P3 filler P4 infoP4 roleP4';
+  grid-row-gap: 15px;
+  grid-column-gap: 5px;
+  padding: 5px;
+}
+
+.grid-container-mobile {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-areas:
+  'P1 infoP1'
+  'P1 roleP1'
+  'P2 infoP2'
+  'P2 roleP2'
+  'P3 infoP3'
+  'P3 roleP3';
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.grid-item-info1{
+	grid-area: infoP1;
+}
+
+.grid-item-role1{
+	grid-area: roleP1;
+}
+
+.grid-item1{
+	grid-area: P1;
+}
+
+.grid-item-info2{
+	grid-area: infoP2;
+}
+
+.grid-item-role2{
+	grid-area: roleP2;
+}
+
+.grid-item2{
+	grid-area: P2;
+}
+
+.grid-item-info3{
+	grid-area: infoP3;
+}
+
+.grid-item-role3{
+	grid-area: roleP3;
+}
+
+.grid-item3{
+	grid-area: P3;
+}
+
+#divider{
+	border-right: 3px solid #b148d2;
+}
